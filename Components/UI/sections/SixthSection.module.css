@@ -1,0 +1,45 @@
+#ring-text-position {
+  left: 55%;
+  top: 22%;
+  width: 44%;
+}
+#ring-text-position h3 {
+  color: #ffffff;
+  line-height: 52px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.fancy-accent {
+  color: #ffffff;
+  font-size: 68px;
+  font-family: "Yellowtail", cursive;
+  font-weight: 700;
+}
+
+.mood-container-mobile {
+  position: absolute;
+  top: 55%;
+  padding: 1.25rem;
+  margin: auto;
+  width: 100%;
+  margin-top: 0;
+}
+
+.mood-container-mobile h3 {
+  color: #9f73a6;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+#fancy-accent-mobile {
+  color: #9f73a6;
+  font-size: 170%;
+}
+
+.mood-container-mobile a {
+  background-color: #242424;
+  margin-top: 0.5rem;
+  color: white;
+}

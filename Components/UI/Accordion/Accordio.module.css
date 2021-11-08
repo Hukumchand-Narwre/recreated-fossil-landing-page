@@ -1,0 +1,62 @@
+.accordio-item {
+  transition: all 2s ease-in-out;
+  height: 45vh;
+}
+
+.accordio-button::before {
+  content: "";
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 3px 5px 0 0;
+  background: transparent
+    url(https://www.fossil.com/on/demandware.static/Sites-fossil-in-Site/-/en_IN/v1635964656063/images/svg-icons/right-carousel-arrow.svg)
+    no-repeat 0 0;
+
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: transform 0.25s;
+}
+
+.accordio-button {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #242424;
+  cursor: pointer;
+}
+.accordio-button-reverse {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #242424;
+  cursor: pointer;
+}
+
+.accordio-button-reverse::before {
+  content: "";
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 3px 5px 0 0;
+  background: transparent
+    url(https://www.fossil.com/on/demandware.static/Sites-fossil-in-Site/-/en_IN/v1635964656063/images/svg-icons/right-carousel-arrow.svg)
+    no-repeat 0 0;
+  background-position: 100%;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  transition: transform 0.25s;
+}
+
+.button-position {
+  position: relative;
+  top: 16.5rem;
+}
+
+@media (max-width: 768px) {
+  .button-position {
+    top: 0rem;
+  }
+}

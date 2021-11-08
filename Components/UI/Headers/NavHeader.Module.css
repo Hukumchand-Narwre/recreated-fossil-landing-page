@@ -1,0 +1,25 @@
+.links {
+  transform: translateY(1.5rem);
+}
+
+.nav-header {
+  width: 87.5%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-2 {
+  width: 8%;
+}
+.nav-header ul {
+  align-items: center;
+}
+
+.nav-header a {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 21px;
+  padding: 0px 0px 6px;
+  text-transform: uppercase;
+  margin: 0px 16px 0px 0px;
+}

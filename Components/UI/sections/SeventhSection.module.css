@@ -1,0 +1,23 @@
+.fossil-watches-container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.for-line {
+  margin-bottom: 0.5rem;
+  border-top: 1px solid #ccc;
+}
+
+
+.fossil-watches-container p {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #242424;
+  text-align: left;
+  background-color: #fff;
+}

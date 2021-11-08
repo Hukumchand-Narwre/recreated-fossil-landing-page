@@ -1,0 +1,44 @@
+.footer {
+  background-color: #fff;
+  margin-top: 3rem;
+  z-index: 1;
+  padding: 0 2rem;
+  height: 88vh;
+}
+
+.container {
+  margin-top: 17px;
+  padding: 0 27px;
+  max-width: 1290px;
+}
+
+.footer-row {
+  border-top: 1px solid #ccc;
+  padding-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-left: -10px;
+  padding-left: 27px;
+  padding-right: 27px;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .footer-row {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+  }
+  .container {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .footer {
+    padding: 0 1rem;
+  }
+}
+.footer-row a:hover {
+  text-decoration: underline;
+}

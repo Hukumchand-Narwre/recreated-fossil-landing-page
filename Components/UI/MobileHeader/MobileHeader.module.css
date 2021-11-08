@@ -1,0 +1,39 @@
+.mobile-header-container {
+  position: fixed;
+  top: 0%;
+  background-color: #ffffff;
+  z-index: 1000;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 1px 0 #ccc;
+}
+
+.slider-container {
+  height: auto;
+  padding-left: 0.9rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.2rem;
+}
+
+.mobile-header {
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.3rem;
+}
+.mobile-header a {
+  padding-left: 2rem;
+}
+.logo-2 {
+  width: 25%;
+}
+
+.search {
+  margin-left: auto;
+}
+.search-icon {
+  height: 1.3rem;
+}
+.cart-icon {
+  height: 1.4rem;
+}

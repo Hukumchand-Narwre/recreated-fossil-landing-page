@@ -1,0 +1,35 @@
+.h3 {
+  color: #242424;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  line-height: 19.2px;
+  margin: 0px 0px 16px;
+  text-align: left;
+}
+.ul {
+  list-style: none;
+  flex-direction: column;
+}
+
+.ul li {
+  height: 1.875rem;
+  margin-bottom: 0.7rem;
+  font-weight: 400;
+}
+
+.last-footer-column {
+  position: relative;
+  top: 11rem;
+}
+.feedback {
+  position: relative;
+  top: 20.8rem;
+
+  text-transform: uppercase;
+}
+
+.feedback a {
+  font-weight: bolder;
+  color: #242424;
+  font-size: 0.9rem;
+}

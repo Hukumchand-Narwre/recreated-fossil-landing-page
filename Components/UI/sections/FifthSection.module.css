@@ -1,0 +1,79 @@
+#bag-text-position {
+  left: 4%;
+  top: 35%;
+  width: 44%;
+}
+
+#bag-text-position h3 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 0px 0px 8px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.classic-text {
+  font-family: "Yellowtail", cursive;
+  display: inline;
+  font-size: 68px;
+  line-height: 68px;
+  text-align: center;
+}
+#bag-text-position p {
+  color: #ffffff;
+  font-size: 100%;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+#changing-bag {
+  top: 10%;
+  left: 45%;
+  width: 52%;
+}
+
+.star-img {
+  position: relative;
+  left: -4%;
+  top: -10%;
+  text-align: left;
+  transform: translateY(-4.8rem);
+}
+#moving-bag-image {
+  position: absolute;
+  top: 2%;
+  margin: auto;
+  width: 100%;
+  padding: 1.25rem;
+}
+
+.changing-bag-below-text {
+  text-align: center;
+  top: 61%;
+  position: absolute;
+  margin: auto;
+  padding: 1rem;
+  left: 9%;
+  overflow: hidden;
+}
+.changing-bag-below-text h3 {
+  font-size: 28px;
+  line-height: 1;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+.changing-bag-below-text p {
+  color: #ffffff;
+  font-size: 13.2px;
+
+  font-weight: 500;
+}
+
+#classic-text-changes-mobile {
+  font-size: 47.6px;
+  line-height: 47.6px;
+}

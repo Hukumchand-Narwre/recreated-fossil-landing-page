@@ -1,0 +1,88 @@
+#secondvarun-text-position {
+  left: 55%;
+  top: 32%;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.olive-text {
+  color: #5d5925;
+  display: inline;
+  font-size: 68px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  line-height: 68px;
+  text-align: center;
+  font-style: italic;
+  font-family: "Yellowtail", cursive;
+}
+
+#secondvarun-text-position h3 {
+  font-size: 2.5rem;
+  color: #924020;
+  margin-bottom: 1rem;
+}
+
+#secondvarun-text-position p {
+  color: #242424;
+  font-weight: 400;
+  margin: 0px 0px 8px;
+  text-align: center;
+  font-size: 100%;
+  line-height: 1.5;
+}
+.fancy-accent {
+  font-size: 130%;
+  font-family: "Yellowtail", cursive;
+  color: #242424;
+  text-align: center;
+  font-weight: 500;
+}
+
+.cracker {
+  position: absolute;
+  top: -13px;
+  right: 1.3rem;
+  z-index: 100;
+}
+
+#mobile-varun-text-img-position {
+  width: 100%;
+  margin: auto;
+  top: 61%;
+  padding: 1.25rem;
+  position: absolute;
+}
+
+#mobile-varun-text-img-position h3 {
+  font-size: 1.75rem;
+  color: #924020;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+#mobile-varun-text-img-position p {
+  line-height: 19px;
+}
+#olive {
+  line-height: 47.6px;
+  font-size: 47.6px;
+}
+@media screen and (max-width: 760px) {
+  .cracker {
+    display: none;
+  }
+  .d-none-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .d-none-desktop {
+    display: none;
+  }
+}

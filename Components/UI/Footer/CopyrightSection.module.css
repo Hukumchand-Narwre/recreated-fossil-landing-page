@@ -1,0 +1,45 @@
+.copysection {
+  background-color: #faf8f6;
+  z-index: 100;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 400;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0.6rem;
+}
+
+@media (max-width: 768px) {
+  .copysection {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    margin: 9px auto;
+  }
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.ul li {
+  flex: 0 0 auto;
+  float: none;
+  font-size: 0.75rem;
+  list-style: none;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.ul li:hover {
+  text-decoration: underline;
+}

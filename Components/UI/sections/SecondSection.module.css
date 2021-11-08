@@ -1,0 +1,35 @@
+.kirti-img {
+  position: relative;
+}
+
+.kirti-img img {
+  max-width: 100%;
+}
+#kirtitext-img-position img {
+  width: 80%;
+}
+
+#kirtitext-img-position {
+  top: 35%;
+  width: 44%;
+}
+
+#kirti-para {
+  color: #924020;
+}
+
+#mobile-2nd-img {
+  width: 82%;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+#mobile-2nd-img img {
+  width: 80%;
+}
+
+#mobile-2nd-img a {
+  background-color: #242424;
+  border-color: #242424;
+  color: #ffffff;
+}

@@ -1,0 +1,10 @@
+.varun-img {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 6.54rem;
+}
+
+.varun-img img {
+  max-width: 100%;
+}
